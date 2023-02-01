@@ -1,5 +1,5 @@
 {
   "version": 1,
-  "include": ["/**/*.css*", "/**/*.js*"],
+  "include": ["/**/*.css", "/**/*.css*", "/**/*.js", "/**/*.js*"],
   "exclude": []
 }
