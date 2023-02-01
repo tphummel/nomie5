@@ -1,4 +1,5 @@
-async function transformMimeType(request) {
+export async function onRequest(context) {
+  const { request } = context
   const { pathname } = new URL(request.url)
   let resp = await fetch(request.url, request)
 
@@ -17,4 +18,3 @@ async function transformMimeType(request) {
   return newResp
 }
 
-addEventListener("fetch", event => event.respondWith(transformMimeType(event.request)))
