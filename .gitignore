@@ -1,3 +1,5 @@
+downloaded
+*.zip
 .DS_Store
 node_modules
 public/bundle.*

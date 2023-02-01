@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf8" />
+    <title>Nomie 5</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+    <meta http-equiv="Cache-Control" content="max-age=600" />
+    <meta name="description" content="Open Source Mood Tracking" />
+    <meta name="apple-mobile-web-app-title" content="Nomie 5" />
+    <meta name="theme-color" content="#319ed7" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="full-screen" content="yes" />
+
+    <script src="/cdn-cgi/apps/head/15jIZGcrviNjGiJ2errweg2CxMs.js"></script><link rel="apple-touch-icon" href="/images/icons/nomie-512.png" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/images/icons/nomie-192.png" />
+    <link rel="manifest" href="/manifest.json" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://v5.nomie.app" />
+    <meta property="og:title" content="Nomie 5" />
+    <meta property="og:description" content="Private Mood and Life Tracking" />
+    <meta property="og:image" content="" />
+
+    <meta name="twitter:card" content="app" />
+    <meta name="twitter:site" content="@nomieapp" />
+    <meta name="twitter:creator" content="@brandoncorbin" />
+    <meta name="twitter:title" content="Nomie.app" />
+    <meta name="twitter:description" content="Mood Tracking" />
+    <meta name="twitter:app:country" content="us" />
+
+    <base href="/" />
+
+    <!-- main is from scss/main.scss -->
+    <link rel="stylesheet" href="/main.css?v=5.6.4" />
+  </head>
+
+  <body>
+    <noscript>
+      Sorry. Nomie requires Javascript to run.
+    </noscript>
+
+    <div class="loading-screen delete-on-app">
+      <div class="version">v5.6.4</div>
+    </div>
+
+    <script src="/js/vendors.js" type="2474feb378af906c350ba1d3-text/javascript"></script>
+    <script src="/bundle.js?v=5.6.4" type="2474feb378af906c350ba1d3-text/javascript"></script>
+    <link rel="stylesheet" href="/css/vendors.css?v=5.6.4" defer />
+    <link rel="stylesheet" href="/bundle.css?v=5.6.4" />
+    <!-- 
+      SimpleAnalytics 
+      Privacy aware analytics. They don't track IP or use Cookies.
+      Learn more at https://docs.simpleanalytics.com/what-we-collect
+    -->
+    <script async defer src="https://cdn.simpleanalytics.io/hello.js" type="2474feb378af906c350ba1d3-text/javascript"></script>
+    <noscript><img src="https://api.simpleanalytics.io/hello.gif" alt="" /></noscript>
+  <script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="2474feb378af906c350ba1d3-|49" defer=""></script></body>
+</html>
